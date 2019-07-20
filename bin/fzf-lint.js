@@ -8,13 +8,13 @@ const program = require('commander');
 // const config = require('../lib/config');
 const { exec } = require('child_process');
 
-program.usage('axx lint');
+program.usage('fzf lint');
 
 program.on('--help', () => {
   console.log('');
   console.log('  Examples:');
   console.log('');
-  console.log('    $ axx lint');
+  console.log('    $ fzf lint');
   console.log('');
 });
 

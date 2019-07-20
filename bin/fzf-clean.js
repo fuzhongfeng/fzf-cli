@@ -5,13 +5,13 @@ const fs = require('fs-extra');
 const program = require('commander');
 const config = require('../lib/config');
 
-program.usage('axx clean');
+program.usage('fzf clean');
 
 program.on('--help', () => {
   console.log('');
   console.log('  Examples:');
   console.log('');
-  console.log('    $ axx clean temp    删除模板文件');
+  console.log('    $ fzf clean temp    删除模板文件');
   console.log('');
 });
 

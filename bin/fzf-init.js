@@ -9,13 +9,13 @@ const config = require('../lib/config');
 
 const { checkTemp, copyTemp } = require('../lib/utils');
 
-program.usage('axx init');
+program.usage('fzf init');
 
 program.on('--help', () => {
   console.log('');
   console.log('  Examples:');
   console.log('');
-  console.log('    $ axx init');
+  console.log('    $ fzf init');
   console.log('');
 });
 
