@@ -1,9 +1,12 @@
 {
   "name": "fzf-cli",
-  "version": "1.1.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "> https://github.com/fuzhonfeng/fzf-cli",
   "main": "index.js",
-  "repository": "https://github.com/fuzhongfeng/fzf-cli.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzhongfeng/fzf-cli.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -51,5 +54,15 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fuzhongfeng/fzf-cli/issues"
+  },
+  "homepage": "https://github.com/fuzhongfeng/fzf-cli#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "cli"
+  ]
 }
