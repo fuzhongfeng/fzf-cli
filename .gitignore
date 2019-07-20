@@ -4,6 +4,7 @@
 .vscode
 package-lock.json
 lib/temp/*
+fu-test.js
 
 # Logs
 logs
