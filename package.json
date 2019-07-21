@@ -16,6 +16,7 @@
   "author": "fuzhongfeng",
   "license": "ISC",
   "dependencies": {
+    "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
     "compression-webpack-plugin": "^1.1.11",
@@ -33,7 +34,6 @@
     "progress-bar-webpack-plugin": "^1.11.0",
     "shelljs": "^0.8.3",
     "stylelint": "^9.4.0",
-    "stylelint-processor-html": "^1.0.0",
     "stylelint-webpack-plugin": "^0.10.5",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "vue-loader": "^15.3.0",
