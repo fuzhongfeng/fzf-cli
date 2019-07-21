@@ -1,6 +1,6 @@
 {
   "name": "fzf-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "> https://github.com/fuzhonfeng/fzf-cli",
   "main": "index.js",
   "repository": {
